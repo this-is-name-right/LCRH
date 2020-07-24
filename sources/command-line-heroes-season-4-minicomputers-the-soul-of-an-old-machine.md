@@ -8,267 +8,267 @@ this-is-name-right translating
 [#]: via: (https://www.redhat.com/en/command-line-heroes/season-4/minicomputers)
 [#]: author: (RedHat https://www.redhat.com/en/command-line-heroes)
 
-Command Line Heroes: Minicomputers: The Soul of an Old Machine
-======
+代码英雄：迷你电脑：一台老机器的灵魂
+====== 
 **00:03** - _Saron Yitbarek_
 
-The year was 1978 and a battle was raging in the mini-computer industry. Just a year earlier, Digital Equipment Corporation released its 32-bit VAX 11 780 computer. It was much more powerful than the 16-bit machines in the market. Sales of the VAX quickly overtook their slower competition. Archrival, Data General, was desperate for a new machine to compete with the VAX. They needed a 32-bit computer of their own and they needed it fast, but that competition between Data General and DEC wasn't the only battle going on. There was also a turf war brewing inside Data General and the spoils of both wars would be the creation of an incredible machine under incredible circumstances. A 13-inch laptop weighs maybe three pounds. We take for granted our computers’ portability and convenient size, but back in the 70s, most computers were still room-sized mainframes, multi-million dollar machines weighing several tons. Then, when hardware costs plummeted, the race to smaller, faster, cheaper machines began. The mini computer opened the door for engineers and scientists to have a terminal of their own. It was the machine that led us to where we are today.
+ 这年是1978年，一场战斗正在迷你电脑的行业里面进行。一年之前，数字设备公司发布了32位的VAX 11 780电脑。 这台电脑要比市场上的16位电脑强得多。VAX的营业额迅速的超过了他缓慢的竞争者。主要竞争对手，通用数据，已经对用新机器来与VAX竞争绝望了。 他们需要一台自己的32位的电脑并且运行要快，但是通用数据和DEC之间并不是唯一的竞争。市场竞争也在通用数据内部酿造，两次战争的战利品都是在令人难以置信的情况下创造出令人难以置信的机器。 一台13英寸的笔记本重量可能在3磅。 我们认为计算机的便携性和便利的尺寸是理所当然的，但是回到70年代的时候，大多数电脑仍然是有着房间一样大尺寸的大型机，数百万美元的机器重达几吨。 然后，当硬件的花费下降时，更小更快更便宜的竞赛开始了。 迷你电脑打开了工程师和科学家们可以拥有自己的终端的大门。就是这些机器带领我们达到了现在的成就。
 
 **01:37** - _Saron Yitbarek_
 
-Last season on Command Line Heroes, we took a deep dive into an area that is central to software development, the world of programming languages. We looked at their history, the problems they solved, and how they've evolved over time. Languages like JavaScript, Python, and C, Perl, COBOL, and Go. This season, season four for those of you counting, we are diving deep again, this time into the hardware that our software runs on. We're going to tell you seven special stories about the people and teams who dared to change the rules of hardware. That laptop on your desk, that phone in your pocket, command line heroes put their soul into every piece of hardware you've owned and heroes before them. Their passion for building their bold moves to make our hardware a reality has revolutionized the way we program today.
+上一个季度在代码英雄我们深入到了一个软件开发的核心区域，编程语言的世界。 我们开着它们的历史，他们所解决的问题，以及他们随着时间的演变。编程语言像是 这个季度，你们所统计的第四季度，我们再一次深入，这次深入到硬件我们软件所运行的地方。 我将要告诉你7个特别的故事是关于人和团队谁胆敢去改变硬件的规则的。 你桌面上的笔记本电脑，你口袋里面的手机，代码英雄把它们的灵魂放入每一片你所持有的硬件和之前的英雄。他们对采取大胆举措以使硬件成为现实的热情彻底改变了我们今天的编程方式。
 
 **02:36** - _Saron Yitbarek_
 
-I'm Saron Yitbarek and this is Command Line Heroes, an original podcast from Red Hat.
+我是Saron Yitbarek，这位是代码英雄，一位来自红帽的原创播客。
 
 **02:45** - _Saron Yitbarek_
 
-In our season premiere, the story of an engineering team racing to design, debug, and deliver a next-generation computer. Their work became the subject of the 1981 bestseller and Pulitzer-winning book, The Soul of a New Machine by Tracy Kidder. The book follows many of the guests you'll hear in this episode.
+本季放映，工程师团队比赛设计调试和角度下一代电脑的故事。它们的工作成为了1981年畅销书和普利策奖的主题。新机器的灵魂由Tracy Kidder所写。这本书讲述了你在这一集中听到的许多客人。
 
 **03:07** - _Saron Yitbarek_
 
-Back to Data General. Company president, Ed de Castro, hatches a plan to compete with DEC. He splits up the engineering department, moving a team from its Westboro, Massachusetts headquarters to a new office in North Carolina. Their assignment? Develop an advanced 32-bit design that would crush the VAX. They named their project, Fountainhead. De Castro gave the team almost unlimited support and resources. Fountainhead was going to be his company's savior. The few remaining engineers left behind in Massachusetts, they felt seriously slighted. They knew they could build a VAX killer, probably a better one than what Fountainhead could build, but de Castro wouldn't give them a chance. So the leader of that group, Tom West, decided to take matters into his own hands. A self-taught computer engineer, Tom West ran Data General's Eclipse division. Eclipse was data General's most successful line of 16-bit mini computers. Tom could build machines, he could ship them, and he knew what the market wanted. After setting up Fountainhead, de Castro told the remaining engineers to keep working on improving last year's product line. Tom and the others were unimpressed.
+ 回到通用数据。公司总裁Ed de Castro，想出了一个与DEC公司竞争的计划。 他拆分了工程部门，从Westboro调了一个团队，将马萨诸塞州总部迁至北卡罗来纳州的新办事处。 它们的任务是什么？ 开发可以击溃VAX的高级的32位机。 它们把工程叫做Fountainhead。De Castro给了这支团队几乎无限的支持和资源。 Fountainhead工程将会成为他的公司的救星。 少数的工程师被留在了Massachusetts，它们感觉被严重的轻视了。 它们知道它们可以做出VAX的杀手，可能要比Fountainhead能做出来的更好，但是de Castro将不会给它们机会。 所以团队的领导Tom West将决定权掌握在自己的手中。 一个自学成才的计算机工程师，Tom West独自管理着Eclipse部门。 Eclipse部门是通用数据最成功的16位机的产品线。 Tom可以制造机器，他可以亲自去运输，并且他也知道市场最需要什么。 自从建立了Fountainhead，de Castro告诉留下来的工程师不断改进去年的产品线。Tom和其他人都不为所动。
 
 **04:31** - _Carl Alsing_
 
-We were not happy with that at all. Some of us left for other jobs and others of us were depressed and worried about our careers and not feeling very excited. And we predicted that the other group was going to fail.
+ 我们一点也不为这高兴。 我们中的一些人留下来是为了其他的工作，另一些人沮丧和担心它们的事业所以一点也不兴奋。并且我们预料到其他的团队会失败。
 
 **04:46** - _Saron Yitbarek_
 
-Carl Alsing was the manager of the micro programming group at Data General. He was Tom's second in command. They decided to come up with their own project.
+ Carl Alsing在通用数据是微端编程小组的经理。He was Tom's second in command. 他是Tom的第二指挥官。它们决定上线自己的项目。
 
 **04:56** - _Carl Alsing_
 
-This'll be a whole new design using the latest techniques, build a 32-bit computer that would beat the DECs’ VAXs. So we put together a proposal for that and went to the president, Ed de Castro, and he says, "Nope, no way. No, the North Carolina groups taking care of that. You don't have to worry about it." So we were discouraged and we went back and came up with another proposal called Victor. We looked at ways of making the old last year's product better. And we had in there a little switch, a mode bit in the system, that when you turned it on, it would enable the computer to act like a modern 32-bit mini computer, although slow. And we took that to Ed de Castro and proposed it. And at the end he said, "You have a mode bit in here. I don't want to see any design with a mode bit. North Carolina's taking care of the new designs." So again, we were discouraged and I think this is when Tom West decided that we were going to do something clandestine.
+ 这将会是全新的设计并且使用了最新的技术，制作一台32位的计算机这将会打败DEC的VAX。 为此我们一起提出了一个方案并把它送到了总裁那，Ed de Castro说不，绝对不行。 不行，倍卡罗来那的团队正做着这些工作。"你不需要为此担心。  所以我们很灰心，然后我们又提出了另一个方案叫做Victor。 我们研究并改善去年旧产品的方法。 我们做了一个小开关，是一个模式转换的开关，当你打开它的时候，这将让老的电脑表现得像是现代的32位机一样，尽管还是慢。 我们把它拿到Ed de Castro那，并提出了这个方案。 最后他说勒一句话，你在这有一个模式转换开关。 我不想看到有任何模式转换开关的设计。 北卡罗来那正在进行着这些工作。所以我们又一次灰心丧气的，我认为Tom West这时候要决定秘密的做一些事情。
 
 **06:06** - _Saron Yitbarek_
 
-Tom came up with two stories. One was for de Castro. They would work on an enhancement of the old Eclipse product line, make it a little faster, add a few new buttons, a different color. Tom pitched it as insurance just in case something went wrong in North Carolina. De Castro approved it. And then Tom told another story, a better story to his team.
+ Tom想出了两个故事。 一个是给de Castro听的。 它们将增强旧的Eclipse产品线，让它变得更快，添加一些新的按钮和不同的颜色。 Tom把它当作北卡罗来那失败的最后保险。 De Castro允许了这项决定。然后Tom讲了一个更好的故事给他的团队。
 
 **06:32** - _Carl Alsing_
 
-So Tom West proposed to a few of us in the team that we build a really good modern machine that's completely compatible with the previous machines and did all the latest high tech stuff that we needed and virtual memory and 32-bits and error correcting codes and all those kinds of things. Multitasking, multiprocessing, lots of memory. "Guys, we're going to build the latest market-killing new machine."
+ 所以Tom West提议我们制作一台正真的好的现代机器可以完全兼容以前的机器采用最新的高科技，我们需要虚拟内存和32位和错误纠正代码以及所有的这些东西。 多任务，多进程，大内存。兄弟们我们将要做一台最新的市场杀手机器。
 
 **07:04** - _Saron Yitbarek_
 
-The code name for this market-killing new machine, was the Eagle. Nowadays, it feels like there's no limit to what you can do with the memory built into our computers, but back then, a big breakthrough happened when 16-bits gave way to 32-bits. All of a sudden, your address space went from 65,000 bytes of information to over 4 billion. And with that increase, software could deal with larger amounts of data. That left computer companies with two basic challenges: transitioning from 16-bits to 32-bits, sure, but they also had to keep their old customers, the ones using the old software, happy. So, they had to create a machine that would keep old software running, a 32-bit computer that could be backward compatible. The VAXs, for all its power, didn't have an elegant solution to that second problem, but Tom was determined that his Eagle would.
+ 为这台新机器命名为市场杀手代号的人是Eagle。 现在，似乎这里就没有限制了你想给我们的电脑制造多大的内存就做多大，但是回到那时，发生了一个重大的突破16位机要给32位机让路。 一下子你的地址空间从65000字节的信息量提高到了4亿字节。 随着这些提升，软件可以处理更多的数据了。 这给了计算机公司两个基础的挑战：从16位机过度到32位机，这是理所当然的，但是它们也同时拥有旧的电脑，让使用着旧的软件的人很高兴。 所以，它们不得不创造一台机器，可以让旧的的软件运行，一台32位的电脑可以向后兼容。尽其所能也没能优雅的解决第二个问题，但是Tom有决心觉得Eagle可以。
 
 **08:14** - _Saron Yitbarek_
 
-Eagle HQ was located in the basement of Westborough building, 14 AB. Tom assigned Carl to head up micro coding. Carl assigned Chuck Holland to manage the coders, who became known as the Micro Kids. Meanwhile, Ed Rasala would oversee hardware. He assigned Ken Holberger to manage that team, which was appropriately called the Hardy Boys. Tom had an ally in VP of Engineering, Carl Carman. Carman also had a bone to pick with de Castro because de Castro refused to put him in charge of the North Carolina group.
+ Eagle的HQ位于Westborough大厦的地下室14AB的 地方。 Tom指派Carl负责微编码。 Carl指派Chuck Holland去管理程序员，后来作为Micro Kids出名。 这时Ed Rasala想要监管硬件。 它指派Ken Holberger去管理那支被称为硬件小子的团队。 Tom有一个在工程中担任副总裁的盟友Carl Carman。Carman也与de Castro有交集，因为de Castro拒绝让他管理呗卡罗来那的团队。
 
 **08:51** - _Carl Alsing_
 
-Carl Carman knew what we were up to and said nothing to his boss. And so he was funding us, but we needed to keep the salaries down, and we needed some really good smart engineers. So we decided to go after college recruits. One advantage of that is that they don't know what you can't do. They think that you can do anything.
+ Carl Carman知道我们在做什么，同时他也没对他的老板说什么。 所以他找到了我们，但是我们需要把工资压低，并且还需要一些正真的好的工程师。 所以我们决定去大学里面找新人。 他们的一个优势就是它们不知道它们能做什么。他们认为可以做任何事情。
 
 **09:15** - _Saron Yitbarek_
 
-Jim Guyer was two years out of college and working at Data General when he got assigned to the Hardy boys.
+Jim Guyer大学毕业两年了当他被指派到硬件小子的时候正在通用数据工作。
 
 **09:21** - _Jim Guyer_
 
-The machine that was being developed down in North Carolina was much more high-end computing, almost mainframe in nature. And well, I mean, that's a pretty big thing to jump into to compete with IBM and the other mainframe companies at the time. We thought we had the edge because we were trying to do something that was not quite as ambitious and we were really, really, really focused on a neat, clean, simple implementation with low cost and fewest components and so forth.
+ 北卡罗来纳开发的大多是高端计算，几乎是自然中的大型机。 这太好了，我的意思是，这太大了如果要与IBM或者其他大型机公司同时竞争。我认为我们有优势因为我们正在试着去做一些太雄心勃勃的事情并且我们真的真的真的着重于整洁，干净，简单的实施，低成本，最少的组件等等。
 
 **09:51** - _Saron Yitbarek_
 
-Low cost, simple design. They realized that they needed to use firmware to control everything. The more functionality they could put under firmware as opposed to hardware, the cheaper and more flexible it could be.
+ 低成本，简单的设计。 它们认识到它们需要使用固件去控制所有东西。在固件而不是在硬件中加入更多的功能，就可以让它变得更便宜更灵活。
 
 **10:03** - _Saron Yitbarek_
 
-And they'd be able to make changes as needed. Of course, modern-day computers are all built this way, but in 1978 the approach was brand new.
+ 它们能根据需而二改变。当然了，在现如今电脑都是使用这种方法制造的，但是在1978年这种方法可是新的一种。
 
 **10:15** - _Carl Alsing_
 
-The kind of design we were doing was very minimal. We were looking at ways of making things simple and straightforward, uncomplicated. Because we knew that it couldn't grow to be a big, expensive machine. It had to be just a few boards, a few circuits, and that's actually an advantage in making it fast. There's a difference between designing a product that's safe, risk-free, and a product that's going to win. And we were not worried about risk. We were worried about winning. We wanted it to be fast and cheap and we wanted to design it quickly. So, we only had three or four boards in there, a minimum amount of hardware, and we made up for that with firmware.
+ 我们现在所使用的设计方法是很小众的。 我们正在寻找使这件事简单明了的方法。 因为我知道这不能成为又大又贵的机器。 只要几块木板几个电路，并且这实际上是一个优势可以让制造它更快。 这与设计产品安全，无风险的产品和将获胜的产品是不同的。 不过我们不怕冒风险。 我们只关心能不能获胜。 我们只希望可以又便宜又快，同时想要快点设计出来。所以我们用了3或4块木板，最少的硬件，我们用固件弥补了硬件少这一点。
 
 **11:06** - _Saron Yitbarek_
 
-The Eagle team faced a lot of tough constraints. The VAX was the highest performance, 32-bit computer on the planet. Eagle had to match it. But on top of that, it had to be compatible with their 16-bit architecture, too. Getting all that done with less money and time than any other team, made Eagle feel like a serious gamble. But Tom West's team was all in.
+ Eagle的特对面对这许多严格的约束。 VAX是地球上性能最高的32位机。 Eagle必须与它竞争。 但是最重要的是，还得兼容它们大量的的16位机。 要在比其他团队更少资金和时间的情况下完成它，让Eagle像是下了很大的赌注。但是Tom West的团队全力以赴。
 
 **11:32** - _Jim Guyer_
 
-There were two systems running 24/7 that we had two shifts of engineers working on them. We all have to be trying to figure out everything. So, we had to learn what everybody else's part did. That was both challenging and extremely educational for me. But we were all engaged with each other to try and go, "What's the next step to figure out this problem? What do we need to look at?" Everybody poring through schematics and other pieces of documentation to figure out, "Look at this signal, look at that computer state, look at the sequence of steps that the microcode is going through. Is it doing the right thing? Oh wait, it's going the wrong direction. Uh oh, why did it do that?"
+ 有两个运行24/7的系统，我们有两班轮班工作的工程师。 我们都必须设法弄清楚一切。 所以，我们必须学习其他人每个人所做的工作。 对于我来说这有挑战性又具有教育意义。但是我们大家都相互努力，然后尝试：“下一步要解决这个问题是什么？ 我们需要看起来像是什么？ 每个人都在认真研究原理图和搞定其他的文档，看这些信号，看那个电脑的状态，看微代码的执行顺序。 它正在做正确的事情吗？ 等一下，它正在往错误的方向走。"啊。。，为什么他会这样做呢。
 
 **12:13** - _Carl Alsing_
 
-This was serious business and that was the work ethic. It was intense in the group. There were sometimes arguments about which way to do something. There might be one way that costs a little bit more money and another way that was cheaper but not as fast or not as effective. And there'd be heated discussions and meetings with some effort to make a consensus. And we made those choices though. And then we worked together.
+ 这是严肃的事，这就是职业道德。 这让小组的气氛很紧张。 这有一些争论是关于以哪种方式去做这件事的。 这也许有一种方式会花费多一点钱，二另一种方式会更便宜但是没有那么快或者没有那么有效。 为了达成共识，将进行激烈的讨论和会议。 我们做出了这些选择。然后我们就一起努力了。
 
 **12:44** - _Carl Alsing_
 
-We worked day and night, we divided up the hours for the prototype. We only had two prototypes and it was really important that both teams get to work on those prototypes. So, there were people working the night shift and people working the day shift and people getting tired. But there was enough excitement about it that it was rewarding. And so nobody complained too much about the working conditions.
+ 我们没日没夜的工作，我们将时间都分给了原型机。 我们只有两个原型机，这真的很重要所有团队都围绕着原型机工作。 所以有的人在夜间工作有的人在日间工作，所有人都很累。 但是所有的这些努力都是值得的。没有人抱怨工作的条件。
 
 **13:11** - _Saron Yitbarek_
 
-The working conditions. Some accounts from that time say that to get what he wanted from the team, Tom West practiced something called mushroom management. Feed them \[beep\] and watch them grow. Inside a cramped and hot workspace, the hours were long and the schedules unrealistic. Tom himself has been described as enigmatic, cold, uncaring. One engineer even referred to him as the Prince of Darkness. Was Tom West so intent on winning that he exploited his team? Did he sacrifice the wellbeing of the Micro Kids and the Hardy Boys to get the perfect machine?
+ 关于工作条件。 那时有一些说法说为了要从团队中得到他想要的东西,Tom West练习了一种叫做蘑菇管理的东西。 喂养它们并看着它们长大。 在又窄又热的办公司，时间很长，并且日程安排也不切实际。 Tom被描述为神秘，冷淡，不关心的人。 一位工程师甚至称他为“黑暗王子”。 难道Tom West太想要赢了，以至于剥削他的团队？他是不是牺牲了Micro Kids和硬件小子的福利来得到那台完美的机器？
 
 **13:56** - _Jim Guyer_
 
-Tom was an interesting guy to work with. He expected a lot of you, and he didn't give you a lot of direction. He expected you to figure out what you needed to do, and pretty much if you weren't able to do that, you weren't on the team.
+ Tom是一个工作上很有趣的人。 他对你又很多期待，并且他从不给你很多方向。他希望你搞清楚什么事你需要去做的，如果你做不到这一点，那么你就不可能在团队里面了。
 
 **14:10** - _Saron Yitbarek_
 
-Direction came from Carl or Ed, the line managers that Jim and the rest of the team worked with on a daily basis. But these young engineers were also in it to win and they liked the opportunity they were given, to figure it out for themselves.
+工作方向来自Carl或者Ed，直属上司Jim和其他的团队做着日常的基础工作。但是，这些年轻的工程师也在其中取胜，他们喜欢自己获得的机会，自己解决问题。
 
 **14:26** - _Jim Guyer_
 
-I personally won the first honorary Micro Kid allnighter award. I don't know, maybe we were over competent, brash, young upstarts who didn't know any better. We were confident. We thought we were pretty smart and could figure things out, and we fed on each other's, maybe those are egos, in that sense. I was having a lot of fun doing it. I think most of us were having a lot of fun doing it.
+ 我个人获得了第一个荣誉Micro Kid通宵达人奖。 我不知道，也许我们已经胜任了，能力强壮，年轻的暴发户，谁都没有更好的解释。 我们有信心。 我认为我们十分聪明并且能解决问题，我们互相鼓励，在这些意义上也许那些是自我。 我这样做会很有趣。我认为我们中的大部分人都在这个过程中感到很有趣。
 
 **14:56** - _Saron Yitbarek_
 
-Carl disagrees with the term mushroom management. He said it was just the opposite. They all knew exactly what was going on and what was expected. It was upper management who didn't. At the same time, Tom West was under a tremendous amount of pressure from multiple fronts, and that pressure got passed along to the group.
+ Carl否认了蘑菇管理这一说法。 他说这恰恰相反。 他们都知道他到底做在什么，并且期待着什么。 这是高级管理，谁不是呢。同时Tom West在多方面的巨大压力下，并且这些压力也蔓延到了团队里面。
 
 **15:18** - _Carl Alsing_
 
-Tom was keeping the true nature of the project quiet. So, he didn't speak much to the engineers, and he remained aloof and he told them, of course, that they weren't to discuss the project outside the group or at home. Not even to use the word Eagle. So we also conveyed that this was very urgent, that we had to do this in a year, that the competition was already in the market, and if we were going to hit the peak of the market with this thing, we had to get it done now. And so they were under a lot of pressure and there was an expectation that they would work nights and weekends and there would be no time for going on picnics with their family or anything that wasn't work-related.
+Tom保持这项目的本质不为人知。所以他没有对工程师说太多，他保持淡定的跟它们说，当然了，他们也从不在团队外或者在家讨论这个项目。甚至不使用鹰这一词。所以我们也传达我们不得不在一年内完成的紧急信息，但是竞争早已在市场上展开了，如果我们打算用这件东西达到市场的顶峰，我们必须现在完成它。所以它们巨大的压力下，它们将在晚上和周末工作以达到它们的期望，这将没有任何时间来跟它们的家人去野餐或者与工作无关的任何事务。
 
 **16:06** - _Saron Yitbarek_
 
-I wanted to find out what it was like working in the trenches of Building 14 AB. So, I sat down with Neal Firth. He was one of the Micro Kids. He joined the team fresh out of school.
+ 我想找出是什么暗地的工作在建筑的14AB里。 所以我与Neal Firth坐下来。 他曾经是Micro Kids的一员。。他刚完成学业就加入了团队
 
 **16:20** - _Saron Yitbarek_
 
-What was it like to work for Tom West? Did you get to interact with him a lot?
+ 他像是为谁工作，Tom West吗？你与他有过很多交流吗？
 
 **16:24** - _Neal Firth_
 
-Not necessarily. He was this ghosty figure. We saw him around. He tried not to interfere so that we could lead ourselves and achieve the goals. This was brand new stuff for what they were doing, and he didn't want to influence us by trying to impose things that had to be done for the previous generation of processors.
+ 不必要。 他像是幽灵一样。 在哪都能看到他。 他从不去打扰，正因为这样所以我才能带领我们达到目标。对于它们以前做的事来说这是一项新的工作，他不想通过强加上一代处理器必须做的事情来影响我们。
 
 **16:49** - _Saron Yitbarek_
 
-It sounds like an intense place where you really want to keep moving and keep getting things done. How did you deal with the fact that there wasn't a ton of time?
+ 这听起来很像是一个紧张的地方，在这你是真的想继续工作继续把事情做完。你是如何处理没有大量时间的事实的呢？
 
 **16:57** - _Neal Firth_
 
-It wasn't a factor to be honest. There was really no issue with there being enough time. We would take the time it took to achieve the result. That's where the spouses had to be very supportive and understanding, because they didn't necessarily say yes immediately. You could equate it to some of the Silicon Valley people at the time or the Jobs, Wozniak type, let's just get in and get this done. We are not quite all live-in-the-same-apartment and code-on-the-floor type people, but it had some of those characteristics.
+ 老实说这不算什么。 这真的没有什么问题，这有充足的时间。 我们将会花一些时间来取得结果。 在这里妻子们都很支持也很理解，因为它们不需要马上说yes。 您可以将其等同于当时的一些硅谷人或乔布斯，Wozniak这些类型的人,让我们只是去完成它。我们并非全都是住在同一间公寓和地板上有代码的那种类型的人，但是具有其中一些特征。
 
 **17:35** - _Saron Yitbarek_
 
-And during that time, what kept you going? Why were you so motivated?
+ 在那段时间里，什么让你继续前进？你为什么这么有动力？
 
 **17:39** - _Neal Firth_
 
-Quite frankly it was solving a problem. I've always been a puzzle and problem-solving guy. In fact, most of the team was that way. All of us had that in our background, and we all enjoyed it. So, solving those puzzles, getting those things solved, discovering a way to do something that had never been done before.
+ 坦率地说，它正在解决问题。 我一直都是一个被困惑着的人和解决问题的人。 事实上，团队里面大多数人都是这样。 我们所有人都有那样的背景，并且我们也挺喜欢的。所以解决这些谜团，会让这些事情被解决，那就是发现一种做以前从未做过的事情的方法。
 
 **18:01** - _Saron Yitbarek_
 
-So what was your most memorable moment on the project?
+那么您在该项目上最难忘的时刻是什么？
 
 **18:05** - _Neal Firth_
 
-At the time, it was quite a ways into the project, and we were running the microcode simulator, and it was actually running what was proposed to be the production simulator, and it had been running for about 10, 12 hours. And all of a sudden, the letter E shows up on the console and then we waited a little while and another letter, then another letter, and then we suddenly realized what we were running for test code was the diagnostics that were being designed to run. And so the microcode simulator was simulating the hardware running this microcode, and it was starting to print characters as if it was actually operating. So, it was maybe a hundred thousand times slower than real life, when it actually came out and operated, but that was one of my most memorable moments.
+ 同时，这的确是一种进入项目的方式，我们运行着微代码模拟器，并且它实际上正在运行着提议中被叫做生产模拟器的东西，而且它已经运行了大概10到12个小时。 突然间，字母E出现在了控制台上，然后我们等了一小会出现了另一个字母，突然我们认识到运行了测试代码，而这段代码设计来是为了诊断的。 所以微代码模拟器模拟了硬件运行这段微代码的情况，它开始打印字符就像是它实际上在运行一样。所以它可能要比实际上慢几百几千倍，当它上线并运行的时候，但是那是我最难忘的时刻之一。
 
 **19:02** - _Saron Yitbarek_
 
-Looking back on it now, do you feel like you were exploited?
+现在回头看，你觉得自己被剥削了吗？
 
 **19:07** - _Neal Firth_
 
-No. I was aware of what was happening. I knew what was happening. So, no. I do not feel exploited. It was actually my expectations coming out of college, it would have never been that I would be in a project that significant, or have an opportunity to play such a significant role in a project like that.
+ 没有。 我知道发生了什么事。 我知道什么事情正在发生。所以我没有觉得我被剥削了。我没有感觉到我被剥削了. 实际上是我从大学毕业时的期望，我从来没有想过我能参与到一个如此重要的项目中，或者有机会在项目中扮演如此重要的角色想那次一样。
 
 **19:31** - _Saron Yitbarek_
 
-I'm wondering how you think about the sacrifice of invention, because if you think about all the great things that we make, usually we have to give up something, right? Something's got to give to make something truly amazing. Did that happen for you? And if so, what was that thing that you had to give up?
+ 我想知道您如何看待这项发明的牺牲，如果您考虑一下我们所做的所有伟大的事情，通常不得不放弃什么东西，对不对？有些事必须是用来做一些伟大的事的。 这些在你身上发生过吗？如果真的这样，那么你不得不放弃的东西是什么？
 
 **19:48** - _Neal Firth_
 
-I wouldn't say that there was a thought-driven process on my part for giving up something. I think it was much more that I became a little more attuned to what I was doing and how I did it impacted those around me.
+ 我不会说我有一个思想驱动的过程来放弃某些东西。我认为，不仅如此，我对自己正在做的事情以及我如何做对我周围的人的影响更加适应了。
 
 **20:03** - _Neal Firth_
 
-But I never necessarily saw it as a sacrifice, and the people I was close to, they lived in a world where that's just the way things happen. I hear the horror stories, if you will, about today, where 24/7 you wake up, you plug in your coffee IVs, grab some pizza or dim sum, and you start coding, and eventually you fall asleep in your keyboard. And then you wake up the next morning and repeat the process.
+ 但是我并没有把它看作牺牲，曾经我很亲近的人，它们生活在一个世界里只是这种事情经常发生。 我听过恐怖故事，如果你愿意，大概在今天，你会在24/7醒来，你泡好咖啡，拿一些披萨或点心，然后你开始敲打代码，甚至你在键盘上睡着。然后你第二天醒来继续重复着这个过程。
 
 **20:35** - _Neal Firth_
 
-We certainly were nowhere near that level of sacrifice. I still had a wife, I still had friends, we still got together. It certainly wasn't a nine-to-five job, but it provided me with a lot of personal and technical achievement, and I was able to share that with my wife, and my sister, and my mother and my father, and my father-in-law. So, those people could appreciate that.
+ 我们当然离牺牲的程度还很远。 我仍然有妻子，朋友，我们仍然在一起。 很显然着不是早九晚五的工作，但是它为我提供了很多个人和技术上的成就，并且我还可以与我的妻子姐姐母亲父亲还有我法律上的父亲一起分享。所以它们可能会很赏识。。
 
 **20:59** - _Saron Yitbarek_
 
-Yeah. So, what do you think is the key to making something truly great?
+ 没错。您认为什么是真正成就卓越的关键？
 
 **21:06** - _Neal Firth_
 
-Key to making something truly great. Interesting question. I think it depends on the people involved doing it, because they want to, not because they have expectations of achievement, or wealth or fame. Because those things are very fleeting and almost never satisfied. But if you're going in trying to achieve a goal, and you and a bunch of people work together on it and achieve it, that really is satisfaction when you achieve that.
+成就伟大的关键。 这是个有趣的问题。 我认为这取决于参与其中的人员，因为它们想要成功，不是因为它们他们希望达成什么，或财富或名望。因为那些事情非常短暂，几乎从未满足。但是如果你将要达成一个目标，你和一群人共同努力并实现，当你达成了的话你会感到很满意。
 
 **21:42** - _Saron Yitbarek_
 
-Neal Firth was one of the Micro Kids on the Eagle Project. He's currently the president of VIZIM Worldwide, a software company.
+ Neal Firth曾经是一个Micro Kids在Eagle项目里。他目前是VIZIM Worldwide的总裁，一个软件公司的。
 
 **21:57** - _Saron Yitbarek_
 
-As chronicled in Tracy Kidder's book, Tom West's aloofness and distance was deliberate. It was his attempt to keep a clear head above all the day-to-day chatter so that Eagle's goal could remain intact. Even more than that though, he wanted to protect the team, isolate them from the politics and corporate brinkmanship happening around them. He also protected the Micro Kids and the Hardy Boys from preconceived ideas about what was possible.
+ 如Tracy Kidder的书中所述，Tom West的淡然与刻意的疏远有待推敲。 这是他试图在日常聊天中保持清醒的头脑，以便使Eagle坚持他的目标。 更多的是，他想要保护团队，将他们与周围发生的政治和企业边缘化隔离。他还保护Micro Kids和硬件小子免受关于可能发生的先入为主的想法。
 
 **22:28** - _Saron Yitbarek_
 
-In 1980, the Eagle was complete. A year later than Tom had promised, but done nonetheless, unlike Fountainhead. Just as the senior team had predicted, the Fountainhead group had failed and their project was shelved. Here's Bill Foster, director of software development at the time, on Fountainhead's struggle.
+ 在1980年，Eagle完成了。比Tom答应的晚了一年，但是尽管如此，还是要比Fountainhead好。 就像高级团队所预测的那样，Fountainhead小组失败了，他们的项目被搁置了。这是当时的软件开发主管Bill Foster谈到源泉的遭遇。
 
 **22:50** - _Bill Foster_
 
-I think the biggest mistake that was made was it wasn't given any limitations. More or less, it was let's do the world's best computer. Well, when should it be done? Oh, we don't really have a date for that. How much should it cost? Well, we're not sure about either. And I have to fail Ed with this. He didn't put enough boundaries on the programmers and the engineers.
+ 我认为最大的错误就是没有受到任何限制。 或多或少限制一下，就只是让我们做世界上最好的电脑。 好吧，什么时候完成？ 我们没有一个确切的完成时间。 该花多少钱？ 好吧，这也没确定。 那Ed我肯定会因为这些失败。他没有给程序员和工程师一些确切的边界。
 
 **23:15** - _Bill Foster_
 
-And if you turn a bunch of programmers and engineers loose, guess what, they're going to make something so complex, design something so big, it will never get done.
+如果你使一群程序员和工程师松散，猜猜你会发生什么，它们将会把一些事做得很复杂，把一些东西设计得很巨大，这将永远不会完成。
 
 **23:26** - _Saron Yitbarek_
 
-Let's remember for a moment. Back when Tom and his team decided they would build the Eagle in secret, for two years this was happening. And the whole time, the president of the company had no idea what was going on. When the machine now officially called the Eclipse MV/8000 was ready to ship, the head of marketing went to Ed de Castro to green light the marketing campaign. Carl Alsing explains.
+ 让我们记住那一刻。 回到T和他的团队决定它们要秘密的制作Eagle的时候，用了两年它们完成了。 而全程，公司的总裁还不知道发生了什么。 当现在正式命名为Eclipse MV / 8000的机器准备好交付时，营销负责人去了Ed de Castro来批准营销活动。才开始解释。
 
 **23:53** - _Carl Alsing_
 
-The head of marketing, he said, "Well, we're ready to do the rollout for the Eagle and we're going to need several thousand dollars. We're going to have a press conference in six different cities around the world. And we're going to do a tour, and we're going to go to many cities, and we're going to shoot a film and show it, and it's going to be a big splash."
+ 营销负责人说我们将要推出Eagle了，并且我们将需要几千美元。 我们将在全球六个不同的城市举行新闻发布会。"我们将要去巡游，我们将要去许多地方，我们将要拍一部电影，这将产生迅速的影响。
 
 **24:14** - _Carl Alsing_
 
-And Ed de Castro said, "I don't understand. Why are you doing that?" This is just another bag on the side of the Eclipse. A skin job. And the marketing manager said, "Nope, this is a whole new machine. This is a 32-bit machine. It's got virtual memory. It's compatible. It's going to beat the VAX. We've got the whole thing here."
+ Ed de Castro说，他不理解。 你为什么做这些？ 这是给Eclipse添加包袱。 只是表面工作。 市场经理说，不会的，这是一台全新的机器。 这是一台32位机。 有虚拟内存。 它可以兼容16位机。这将可以打败VAX。我们这里有所有的东西。
 
 **24:37** - _Carl Alsing_
 
-And Ed de Castro was really confused for a bit. He thought we were failing in North Carolina and that was going to be the end of it, and we had saved his bacon. So, yeah, he invited us all up, and we had a little lunch meeting. There were sandwiches and soda and he said, "Well, you guys did a good job, and I'm surprised. And I didn't realize you were doing this, but we are going to roll this out, and I understand there's going to be a film, and some tours, and you guys are going to be part of that, so thank you and eat your sandwiches."
+Ed de Castro困惑了一会。 它认为我们在北卡罗来那失败了就会在这个行业垫底，但是我们拯救了它。 所以，没错，他邀请了我们参加了一个小的午餐聚会。午餐有三明治和沙拉，同时他说你们的工作做得很好，我很惊讶。"我没想到你们会做这件事，但是我们将会把它推出，并且据我了解这将会拍一部电影，和一些巡游，而你们将会成为其中的一部分，所以很感谢你们并享用三明治吧。
 
 **25:19** - _Saron Yitbarek_
 
-The Eagle, now christened the MV/8000 appeared on the front cover of Computer World Magazine. All the media hoopla during the rollout turn that team of secretive, basement-dwelling employees into minor celebrities. After all, they had saved Data General.
+Eagle现在叫做MV/8000的机器出现在了计算机世界杂志的封面上。 推广期间，所有媒体大呼小叫，使秘密住所，地下室的员工团队变成了少数名人。毕竟它们拯救了通用数据。
 
 **25:38** - _Saron Yitbarek_
 
-But the good times were short-lived. Tom West could no longer shield the group from the company's internal politics. The team was unprepared for the animosity. Others within the corporation envied their accomplishments and were appalled that they got away with the secret project for so long.
+ 但是美妙的时光总是很短暂。 Tom West不能再将集团与公司内部政治隔离开。 团队没有为敌意做好准备。公司中的其他人羡慕自己的成就，并感到震惊的是他们隐瞒了这个秘密项目这么长时间。
 
 **25:57** - _Saron Yitbarek_
 
-Soon, a new VP of Engineering replaced their ally, Carl Carman. The new guy broke up the Eagle group and shipped Tom off to Data General's Japan office all before a single MV/8000 was sold.
+ 不久，新的工程副总裁取代了他们的盟友Carl Carman。新家伙分拆了Eagle团队，将汤姆派到通用数据的日本办事处，然后再出售一台MV / 8000。.
 
 **26:13** - _Jim Guyer_
 
-I thought we built the best 32-bit super-mini computer that money could buy, and I thought that was a great thing for Data General, and I thought it was going to kick Digital around a little bit, and not that we ever took the world away from them. Competition in that time was just way too tough, and it's hard to be a winner in high tech, but I thought that we had done something worthwhile.
+ 我以为我们制造出了钱可以买到的最好的32位超级迷你计算机，而且我认为这对通用数据来说是一件好事，而且我认为这将痛击Digital一会，而不是我们曾经远离他们的世界。当时的竞争太艰难了，很难成为高科技的赢家，但我认为我们做了值得的事情。
 
 **26:42** - _Saron Yitbarek_
 
-When the Eagle was released, it did save Data General, but after losing market share to DEC for three years, the company never really recovered, and the industry had moved on. Mini computers were no longer the big thing. The microcomputer race had already begun, paving the way to the personal computer revolution.
+ 当Eagle发行时，它确实挽救了通用数据，但在将市场份额损失给DEC三年之后，该公司从未真正复苏过，行业发展迅速。微型计算机不再是一件大事。微型计算机竞赛已经开始，为个人计算机革命铺平了道路。
 
 **27:04** - _Carl Alsing_
 
-Data General went on and did other versions of that, and improvements on it in other models, and it carried them for a while, and so they enjoyed some success. But things change. The market changed and they turned themselves into a software company, and then they ended up being bought out by somebody else. Now, I think they're a file drawer at some company in Hopkinton, Massachusetts.
+通用数据继续进行并进行了其他版本的开发，并在其他模型中进行了改进，并进行了一段时间，并取得了一些成功。 但是一切都变了。市场发生了变化，他们将自己变成了一家软件公司，然后又被其他人收购。现在，我认为它们是马萨诸塞州霍普金顿一家公司的文件抽屉。
 
 **27:36** - _Saron Yitbarek_
 
-A year later, many in the Eagle group had left Data General. Some were burned out. Some were ready to build something different. A few headed out west to Silicon Valley, keen to find that next creative spark. Regardless, there didn't seem to be much point in staying on at a company that didn't recognize all they'd done to save it. That same year in 1981, Tracy Kidder's Soul of a New Machine was published. Now, the world would know how the Eagle got built.
+一年后，Eagle团队的许多人离开了通用数据。有些东西被烧光了。 有些人准备建立一些不同的东西。 一些人向西前往硅谷，渴望发现下一个创意火花。 无论如何，留在一家没有意识到他们为挽救它所做的一切的公司似乎没有多大意义。 1981年，同年，Tracy Kidder的《Soul of a New Machine》出版了。现在，世界将知道鹰是如何制造的。
 
 **28:14** - _Carl Alsing_
 
-If you're asking me what the soul of a new machine is, I guess I would say it's the people and the things that they go through, the sacrifices they make, and the effort they make, and the excitement they feel about that, and the satisfactions they're hoping to get. Maybe get, maybe don't, but they strive for that.
+ 如果您问我新机器的灵魂是什么，我想我会说这是他们经历的人和事，他们的牺牲，他们的努力以及他们对此感到的兴奋， 以及他们希望获得的满足感。也许得到，也许没有，但是他们为此努力。
 
 **28:35** - _Jim Guyer_
 
-The machine, in a way, was kind of a bit character. It was the people who were the real guts of what it was about.
+从某种意义上说，这台机器只是一个角色。真正意义上的是这些人。
 
 **28:47** - _Saron Yitbarek_
 
-In the next episode of our all new season on hardware, we go back in time to the world of mainframes and tell the story of another group of rebel employees. The computer they built gave birth to a programming language that changed the world.
+在硬件的新季度的下一集中，我们将时光倒流回到大型机领域，并讲述另一组叛军员工的故事。他们制造的计算机催生了改变世界的编程语言。
 
 **29:04** - _Saron Yitbarek_
 
-Command Line Heroes is an original podcast from Red Hat. This season, we're compiling some great research for you so you can learn more about the history of the hardware we're talking about. Head on over to [redhat.com/commandlineheroes](//www.redhat.com/commandlineheroes) to dive deeper into the Eagle and the team behind it. I'm Saron Yitbarek. Until next time, keep on coding.
+ 代码英雄是红帽的原创播客。 这个季度，我们正在为您汇总一些出色的故事，以便您可以了解有关我们所谈论的硬件历史的更多信息。前往 [redhat.com/commandlineheroes](//www.redhat.com/commandlineheroes)  深入探究Eagle及其背后的团队。我是Saron Yitbarek。 直到下一次，持续编码。
 
 --------------------------------------------------------------------------------
 
